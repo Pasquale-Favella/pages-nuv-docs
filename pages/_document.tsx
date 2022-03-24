@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           <link rel="manifest" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/manifest.json`}/>
           <link rel="apple-touch-icon" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/icon.png`}></link>
-          <meta name="theme-color" content="#fff" />
+          <meta name="theme-color" content="#2a303c" />
         </Head>
         <body>
           <Main />
