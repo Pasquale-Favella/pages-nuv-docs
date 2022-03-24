@@ -16,7 +16,7 @@ const Features = ()=>{
                 <div className="flex-grow pl-6">
                   <h2 className="text-primary text-lg title-font font-medium mb-2">Kubernetes</h2>
                   <p className="leading-relaxed text-base">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500
                   </p>
                   
                 </div>
@@ -32,7 +32,7 @@ const Features = ()=>{
                 <div className="flex-grow pl-6">
                   <h2 className="text-primary text-lg title-font font-medium mb-2">Docker</h2>
                   <p className="leading-relaxed text-base">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500
                   </p>
                 </div>
               </div>
