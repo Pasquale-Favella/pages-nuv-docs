@@ -5,7 +5,7 @@ const DocsCard : React.FC<{repo:GithubRepo}> = ({repo})=>{
     
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl mx-auto w-full">
-            <figure><img src={`${process.env.NEXT_PUBLIC_ASSETS || ''}//card-image.svg`} alt="Nuvolaris logo" /></figure>
+            <figure><img src={`${process.env.NEXT_PUBLIC_ASSETS || ''}/card-image.svg`} alt="Nuvolaris logo" /></figure>
             <div className="card-body">
                 <h2 className="card-title capitalize">
                     {repo.name}
