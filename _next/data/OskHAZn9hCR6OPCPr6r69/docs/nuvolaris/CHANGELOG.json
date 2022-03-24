@@ -1,0 +1,1 @@
+{"pageProps":{"content":"# nuvolaris-devkit:trinity-22.0303.13\n- improved docker and java version detection\n- added a kind wrapper so kind works also in the container\n","slug":"nuvolaris","markdown":"CHANGELOG"},"__N_SSG":true}
