@@ -12,7 +12,7 @@ const Navbar = ()=>{
                 <DropDown/>
             </div>
             <div className="navbar-center align-middle">
-                <img className="h-10 w-10" src="/nuv-logo.png" />
+                <img className="h-10 w-10" src={`${process.env.NEXT_PUBLIC_ASSETS || ''}/nuv-logo.png`} />
                 <Link href={'/'}>
                     <a className="normal-case text-xl ">
                         Nuv-Docs
