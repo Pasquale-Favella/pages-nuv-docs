@@ -27,7 +27,7 @@ jobs:
         env:
           NEXT_PUBLIC_GITHUB_CLIENTID: ${{secrets.NEXT_PUBLIC_GITHUB_CLIENTID}}
           NEXT_PUBLIC_GITHUB_SECRET: ${{secrets.NEXT_PUBLIC_GITHUB_SECRET}}
-          NEXT_PUBLIC_ASSETS: ${{secrets.NEXT_PUBLIC_GITHUB_SECRET}}
+          NEXT_PUBLIC_ASSETS: ${{secrets.NEXT_PUBLIC_ASSETS}}
       - run: npm run export
       - run: touch ./out/.nojekyll
 
