@@ -5,8 +5,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/pages-nuv-docs",
-  assetPrefix: "/pages-nuv-docs",
+  basePath: `${process.env.NEXT_PUBLIC_ASSETS || ''}`,
+  assetPrefix: `${process.env.NEXT_PUBLIC_ASSETS || ''}`,
 }
 
 module.exports = nextConfig
