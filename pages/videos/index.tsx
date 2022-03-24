@@ -8,7 +8,7 @@ const VideoIndex = ()=>{
             <Head>
                 <title>Nuvolaris Docs | Videos</title>
                 <meta name="description" content={`Nuvolaris documentation | Video Gallery`} />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/favicon.ico`} />
             </Head>
             <VideoGrid/>
         </div>

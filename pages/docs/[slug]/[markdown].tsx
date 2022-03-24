@@ -25,7 +25,7 @@ const DocsPage : React.FC<Props>= ({ content ,slug , markdown})=> {
             <Head>
                 <title>Nuvolaris Docs | {slug}/{markdown}</title>
                 <meta name="description" content={`Nuvolaris documentation | ${slug}/${markdown}`} />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/favicon.ico`} />
             </Head>
 
             <div className="text-sm breadcrumbs">

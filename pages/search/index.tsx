@@ -14,7 +14,7 @@ const SearchIndex : React.FC= ()=>{
                 <Head>
                     <title>Nuvolaris Docs | search {q}</title>
                     <meta name="description" content={`Nuvolaris documentation | search ${q}`} />
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/favicon.ico`} />
                 </Head>
                 <SearchBar/>
                 <SearchResults />

@@ -13,7 +13,7 @@ const DocsIndex : React.FC<Props>  = ({repos})=>{
         <Head>
           <title>Nuvolaris Docs | docs explore</title>
           <meta name="description" content={`Nuvolaris documentation | docs explore`} />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/favicon.ico`} />
         </Head>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4 mt-5 mb-5'>
         {repos.map((repo, i)=> <DocsCard key={i} repo={repo}/>)}

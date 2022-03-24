@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Nuvolaris Docs</title>
         <meta name="description" content="Nuvolaris documentation | Home" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_ASSETS || ''}/favicon.ico`}/>
       </Head>
       <div >
         <Hero/>
